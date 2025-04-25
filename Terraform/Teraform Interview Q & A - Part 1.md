@@ -239,8 +239,6 @@ terraform apply -replace="aws_instance.example"
     }
     
     ```
-    
-
 ---
 
 ### **13. What is the purpose of the `terraform data` source?**
@@ -281,11 +279,9 @@ terraform {
 }
 
 ```
-
 Use `terraform providers` to check installed versions.
 
 ---
-
 ### **15. How do you optimize Terraform performance for large infrastructures?**
 
 ### **Answer:**
@@ -295,3 +291,14 @@ Use `terraform providers` to check installed versions.
 - **Use caching** for remote states (`terraform refresh`).
 - **Use state locking** to prevent concurrency issues.
 - **Use the `target` flag** to apply changes to specific resources.
+---
+### **16. What Terraform commands are the most useful?
+### **Answer:**
+  Terraform init 
+  Terraform refresh 
+  Terraform output 
+  Terraform apply 
+  Terraform Destroy 
+  Terraform Graph 
+  Terraform Plan
+

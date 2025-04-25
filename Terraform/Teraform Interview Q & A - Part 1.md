@@ -294,11 +294,12 @@ Use `terraform providers` to check installed versions.
 ---
 ### **16. What Terraform commands are the most useful?**
 ### **Answer:**
-  Terraform init 
-  Terraform refresh 
-  Terraform output 
-  Terraform apply 
-  Terraform Destroy 
-  Terraform Graph 
-  Terraform Plan
+### **Terraform Refresh** – This command updates state files.
+Terraform Apply – This command executes Terraform codes and creates objects.
+Terraform Output – This command allows viewing Terraform outputs.
+Terraform Graph – This command generates graphs in DOT format.
+Terraform Destroy – This command destroys the already-built IT infrastructure.
+Terraform Init – This command creates a new directory in the current directory.
+Terraform Plan – This command creates an execution plan. The plan supports previewing the changes that Terraform will make in an infrastructure.
+Terraform Validate – This command validates the configuration files stored in a directory.
 

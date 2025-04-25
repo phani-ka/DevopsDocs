@@ -1,4 +1,4 @@
-### ***0. What is IaC?
+### **0. What is IaC?
 
 ### **Answer:**
 Infrastructure as Code (IaC) is the software approach in which developers use code to build, modify, and maintain an IT infrastructure using configuration files. The IT provisioning is done automatically, replacing the manual efforts. Note that we can alter and transfer configuration files securely within the organisation.
